@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_item"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/kungfu" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Product Title"
+            android:textColor="#000"
+            android:textSize="18dp"
+             />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="2000"
+            android:textColor="#000"
+            android:textSize="16dp"
+      />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_secound_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="4000"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ima_share"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_launcher_background"
+          />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ima_like"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_launcher_background"
+      />
+
+
+</LinearLayout>
+
+
+
+
+
